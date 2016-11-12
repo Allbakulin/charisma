@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link re="shortcut icon" href="http://charismastudio.ru/favicon.ico" type="image/x-icon">
-    <title>Дизайн студия Харизма – О компании</title>
+    <title>Дизайн студия – О компании</title>
     <link href="http://fonts.googleapis.com/css?family=Tinos:400,700,400italic,700italic&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="../../css/styles.css">
   </head>
@@ -53,61 +53,64 @@
               <li class="item-portfolio empty"><!--li.item-portfolio-end-->
               <li class="item-portfolio empty"><!--li.item-portfolio-end-->
               <li class="item-portfolio empty"><!--li.item-portfolio-end-->
-              
+
               <li class="separator-clear"><!--li-end-->
               <li class="separator-clear sm"><!--li-end-->
-                  
+
+
               <li class="item-portfolio">
                   <div class="middle" data-70-top="opacity:1;" data--150-top="opacity:0.1;" data--70-bottom="opacity:1;" data-150-bottom="opacity:0.1;">
-                    <a href="index.html#" class="img"><img src="../../content/portfolio-preview/photo/1.jpg" alt=""></a>
+                      <a href="#" class="img"><img src="../../content/portfolio-preview/photo/2.jpg" alt=""></a>
                       <div class="summary">
-                          <h2>CARAT</h2>
+                          <h2>НАЗВАНИЕ</h2>
                           <hr>
-                          <p>Съемка для тюнингового ателье</p>
+                          <p>Описание</p>
                       </div><!--.summary-end-->
                   </div><!--.middle-end-->
               <!--li.item-portfolio-end-->
-              
+
               <li class="item-portfolio">
                   <div class="middle" data-70-top="opacity:1;" data--150-top="opacity:0.1;" data--70-bottom="opacity:1;" data-150-bottom="opacity:0.1;">
-                      <a href="index.html#" class="img"><img src="../../content/portfolio-preview/photo/2.jpg" alt=""></a>
+                      <a href="#" class="img"><img src="../../content/portfolio-preview/photo/2.jpg" alt=""></a>
                       <div class="summary">
-                          <h2>DECOR</h2>
+                          <h2>НАЗВАНИЕ</h2>
                           <hr>
-                          <p>Съемка праздничных декораций</p>
+                          <p>Описание</p>
                       </div><!--.summary-end-->
                   </div><!--.middle-end-->
               <!--li.item-portfolio-end-->
-                  
+
               <li class="separator-clear sm"><!--li-end-->
-                  
+
+
               <li class="item-portfolio">
                   <div class="middle" data-70-top="opacity:1;" data--150-top="opacity:0.1;" data--70-bottom="opacity:1;" data-150-bottom="opacity:0.1;">
-                      <a href="index.html#" class="img"><img src="../../content/portfolio-preview/photo/3.jpg" alt=""></a>
+                      <a href="#" class="img"><img src="../../content/portfolio-preview/photo/2.jpg" alt=""></a>
                       <div class="summary">
-                          <h2>LAVANDA</h2>
+                          <h2>НАЗВАНИЕ</h2>
                           <hr>
-                          <p>Съемка для магазина цветов</p>
+                          <p>Описание</p>
                       </div><!--.summary-end-->
                   </div><!--.middle-end-->
               <!--li.item-portfolio-end-->
-              
+
               <li class="separator-clear"><!--li-end-->
               <li class="separator-clear sm"><!--li-end-->
-                  
+
+
               <li class="item-portfolio">
                   <div class="middle" data-70-top="opacity:1;" data--150-top="opacity:0.1;" data--70-bottom="opacity:1;" data-150-bottom="opacity:0.1;">
-                      <a href="index.html#" class="img"><img src="../../content/portfolio-preview/photo/4.jpg" alt=""></a>
+                      <a href="#" class="img"><img src="../../content/portfolio-preview/photo/2.jpg" alt=""></a>
                       <div class="summary">
-                          <h2>PROТАНЦЫ</h2>
+                          <h2>НАЗВАНИЕ</h2>
                           <hr>
-                          <p>Съемка хореографов для школы танцев</p>
+                          <p>Описание</p>
                       </div><!--.summary-end-->
                   </div><!--.middle-end-->
               <!--li.item-portfolio-end-->
-              
+
               <li class="item-portfolio"><!--li.item-portfolio-end-->
-                  
+
           </ul>
         </div>
       </div>
@@ -175,7 +178,7 @@
     <script src="../../js/jquery.mask.min.js"></script>
     <script src="../../js/jquery.validate.min.js"></script>
     <script src="../../js/jquery.form.min.js"></script>
-    <script src="../../js/skrollr.min.js"></script>  
+    <script src="../../js/skrollr.min.js"></script>
     <script>
       var _required = "Обязательное поле"
       var _minName = "Слишком короткое имя"
@@ -184,7 +187,7 @@
       var _email = "Введите корректный email"
       var _minEmail = "Слишком короткий email"
       var _minMsg = "Слишком короткое сообщение"
-      
+
     </script>
     <script>(function() {
   (function() {
@@ -197,7 +200,7 @@
     });
     return $("input[name='formPhone']").mask("9 (999) 999-99-99");
   })();
-  (function() {  
+  (function() {
     $('.item-portfolio .summary').hover(
         function(){
             $(this).closest('.item-portfolio').addClass('hover');
@@ -208,17 +211,17 @@
     ).click(function(){
         window.location.href = $(this).closest('.item-portfolio').find('a').attr('href');
     });
-      
+
     // Skrollr parallax
     var s,
         setTimeSroll;
-    
+
       function touchevents() {
           return (/Android|iPhone|iPad|iPod|BlackBerry/i).test(navigator.userAgent || navigator.vendor || window.opera);
       }
-      
+
     if (touchevents() == false) {
-        
+
         s = skrollr.init({
             forceHeight: false
         });
@@ -229,9 +232,9 @@
                 s.refresh();
             }, 300);
         });
-        
+
     }
-      
+
   })();
   (function() {
     return $("form").validate({
@@ -295,14 +298,14 @@
                           accurateTrackBounce:true});
               } catch(e) { }
           });
-      
+
           var n = d.getElementsByTagName("script")[0],
               s = d.createElement("script"),
               f = function () { n.parentNode.insertBefore(s, n); };
           s.type = "text/javascript";
           s.async = true;
           s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
-      
+
           if (w.opera == "[object Opera]") {
               d.addEventListener("DOMContentLoaded", f, false);
           } else { f(); }
